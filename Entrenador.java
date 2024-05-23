@@ -18,7 +18,7 @@ public class Entrenador extends  Humano{
     }
 
     public void viajar(){
-        System.out.println("el entrenador esta viajando y yo no se mañana que sera de mi");
+        System.out.println("el entrenador esta viajando y yo no se mañana que sera de mi asi que me voy");
     }
 
 }
