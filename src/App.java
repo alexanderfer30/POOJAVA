@@ -4,5 +4,13 @@ public class App {
 
         System.out.println("ID: " + entrenador.getId() + ", Nombre: " + entrenador.getNombre()
                 + ", Apellido: " + entrenador.getApellidos() + ", Edad: " + entrenador.getEdad());
+
+        var masajista = new Masajista(1, "Moises", "Juarez", 45, 10);
+
+        System.out.println("ID: " + masajista.getId() + ", Nombre: " + masajista.getNombre()
+                + ", Apellido: " + masajista.getApellidos() + ", Edad: " + masajista.getEdad() + ", años de experiencia: " + masajista.getAniosExperiencia());
+
     }
+
+
 }
