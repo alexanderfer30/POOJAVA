@@ -27,7 +27,9 @@ public class Masajista  extends Humano{
         this.aniosExperiencia = aniosExperiencia;
     }
 
-
+    public void cuidadoManos(){
+        System.out.println("Para dar un buen masje tienes que mantener sana y fuertes tu manitas ;)");
+    }
     public void darMasaje(){
         System.out.println("dar mensaje");
     }
